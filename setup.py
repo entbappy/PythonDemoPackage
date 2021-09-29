@@ -9,8 +9,7 @@ USER_EMAIL = "entbappy73@gmail.com"
 
 setup(
     name=f"{PROJECT_NAME}",
-    packages = find_packages(),
-    version="0.0.4",
+    version="0.0.5",
     author="Bappy Ahmed",
     author_email=USER_EMAIL,
     description="A small example package",
@@ -25,11 +24,12 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    # package_dir={"": "src"},
-    # packages=setuptools.find_packages(where="src"),
+    package_dir={"": "src"},
+    packages= find_packages(where="src"),
     python_requires=">=3.7",
 
     install_requires=[
-        "pandas"
+        "pandas",
+        "PyYAML"
     ]
 )
