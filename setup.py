@@ -1,4 +1,4 @@
-from setuptools import find_packages
+from setuptools import find_packages, setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -7,7 +7,7 @@ PROJECT_NAME = "PythonDemoPackage"
 USER_NAME = "entbappy"
 USER_EMAIL = "entbappy73@gmail.com"
 
-setuptools.setup(
+setup(
     name=f"{PROJECT_NAME}",
     packages = find_packages(),
     version="0.0.3",
