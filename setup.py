@@ -10,7 +10,7 @@ USER_EMAIL = "entbappy73@gmail.com"
 setup(
     name=f"{PROJECT_NAME}",
     packages = find_packages(),
-    version="0.0.3",
+    version="0.0.4",
     author="Bappy Ahmed",
     author_email=USER_EMAIL,
     description="A small example package",
