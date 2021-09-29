@@ -10,7 +10,7 @@ USER_EMAIL = "entbappy73@gmail.com"
 setuptools.setup(
     name=f"{PROJECT_NAME}",
     packages = find_packages(),
-    version="0.0.1",
+    version="0.0.2",
     author="Bappy Ahmed",
     author_email=USER_EMAIL,
     description="A small example package",
