@@ -9,7 +9,7 @@ USER_EMAIL = "entbappy73@gmail.com"
 
 setup(
     name=f"{PROJECT_NAME}",
-    version="0.0.5",
+    version="0.0.6",
     author="Bappy Ahmed",
     author_email=USER_EMAIL,
     description="A small example package",
